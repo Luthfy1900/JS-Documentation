@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+code {
+    border: transparent;
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    background-color:#E9F2F2;
+}
+
+p, li {
+    color: #757D7D;
+}
+Header {
+    font-size: Large;
+    font-weight: bold;
+}
+
+#left-nav {
+    border-right: solid #929C9C;
+    height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  background-color:#F7FFFF;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+#left-nav a{
+    padding: 6px 0px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #757D7D;
+  display: block;
+}
+
+#left-nav a:hover {
+    color: black;
+}
+
+#head {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 20px;
+}
+#main-doc {
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-bottom: 20px;
+  
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    #navbar {
+        height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+    }
+code {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 1px;
+    padding-bottom: 11px;
+    margin-left: 20px;
+}}
